@@ -1,0 +1,5 @@
+jdk:
+  - openjdk17
+install:
+  - FILE="-Dfile=rtc_room_engine-4.1.4.111.aar"
+  - mvn install:install-file $FILE -DgroupId=io.trtc.uikit -DartifactId=rtc_room_engine -Dversion=4.1.4.111 -Dpackaging=aar -DpomFile=rtc_room_engine-4.1.4.111.pom

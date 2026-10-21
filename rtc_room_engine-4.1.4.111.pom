@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.trtc.uikit</groupId>
+  <artifactId>rtc_room_engine</artifactId>
+  <version>4.1.4.111</version>
+  <packaging>aar</packaging>
+  <name>rtc_room_engine</name>
+  <description>RTC Room Engine</description>
+  <url>https://github.com/tencentyun/TUILiveRoom</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>taopu</id>
+      <name>taopu</name>
+      <email>taopu@tencent.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tencentyun/TUILiveRoom.git</connection>
+    <developerConnection>https://github.com/tencentyun/TUILiveRoom.git</developerConnection>
+    <url>https://github.com/tencentyun/TUILiveRoom</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.snice</groupId>
+      <artifactId>LiteAVSDK_Professional</artifactId>
+      <version>13.3.0.24002</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.localbroadcastmanager</groupId>
+      <artifactId>localbroadcastmanager</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
