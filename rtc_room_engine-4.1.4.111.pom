@@ -30,7 +30,7 @@
     <dependency>
       <groupId>com.github.snice</groupId>
       <artifactId>LiteAVSDK_Professional</artifactId>
-      <version>13.3.0.20247</version>
+      <version>13.6.0.20732</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
